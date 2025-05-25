@@ -32,7 +32,7 @@ int main() {
             idx += i;
         }
 
-        a.push_back(a.back()+1);
+        a.push_back(1e9);
 
         for (int i = 0; i < n; i++) {
             cout << a[i] << " ";
